@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.app {
+  filter: sepia(1);
+  animation: hue 10s alternate-reverse both infinite;
+}
+
+
+@keyframes hue {
+  from {
+    filter: sepia(1);
+  }
+  to {
+    filter: sepia(1) hue-rotate(360deg);
+  }
+}
