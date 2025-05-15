@@ -9,8 +9,8 @@ export default function Home() {
         <title>Mert Cukuren — UI Architect</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Novatrix className="w-full h-full inset-0 h-full w-full absolute" style={{ filter: 'grayscale(1) brightness(0.4) contrast(1.8)' }} />
-      <div className="flex flex-col from-white to-transparent bg-gradient-to-r bg-opacity-90 absolute sm:top-20 sm:left-20 inset-0 sm:p-20 top-10 left-10 p-10" style={{ backdropFilter: 'blur(15px)' }}>
+      <Novatrix className="w-full h-full inset-0 h-full w-full absolute" style={{ filter: 'grayscale(1) brightness(0.6) contrast(1.8)' }} />
+      <div className="flex flex-col from-white to-transparent bg-gradient-to-r bg-opacity-90 absolute inset-0 sm:p-20 top-10 left-10 p-10" style={{ backdropFilter: 'blur(20px)' }}>
         <h1 className="sm:text-5xl text-4xl text-gray-800">Mert Cukuren</h1>
         <h2 className="mt-2 text-gray-700 sm:text-lg">UI Architect at Jotform</h2>
         <div className="flex space-x-4 mt-8">
