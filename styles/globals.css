@@ -8,6 +8,19 @@
   animation: hue 10s alternate-reverse both infinite;
 }
 
+.app::after {
+  background: 
+  linear-gradient(to right, blue, transparent), 
+  url(https://grainy-gradients.vercel.app/noise.svg);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+}
+
+.font-lexend {
+  font-family: "Jersey 15", sans-serif;
+}
 
 @keyframes hue {
   from {
