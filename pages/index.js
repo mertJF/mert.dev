@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="sm:text-7xl text-5xl text-gray-800">Mert Cukuren</h1>
         <h2 className="sm:mt-2 text-gray-700 sm:text-3xl text-xl">UI Architect at <a href="https://jotform.com" target="_blank">Jotform</a></h2>
         <div className="flex space-x-4 sm:mt-8 mt-4 sm:text-lg">
-          <a href="https://twitter.com/knyttneve" className="text-gray-700 border-b-2 border-gray-700 hover:text-gray-800 hover:border-gray-800" target="_blank">Twitter</a>
+          <a href="https://twitter.com/knyttneve" className="text-gray-700 border-b-2 border-gray-700 hover:text-gray-800 hover:border-gray-800" target="_blank">X</a>
           <a href="https://linkedin.com/in/mertcukuren" className="text-gray-700 border-b-2 border-gray-700 hover:text-gray-800 hover:border-gray-800" target="_blank">Linkedin</a>
           <a href="https://github.com/mertJF" className="text-gray-700 border-b-2 border-gray-700 hover:text-gray-800 hover:border-gray-800" target="_blank">GitHub</a>
           <a href="https://codepen.io/knyttneve" className="text-gray-700 border-b-2 border-gray-700 hover:text-gray-800 hover:border-gray-800" target="_blank">CodePen</a>
