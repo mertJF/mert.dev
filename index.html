@@ -4,63 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Mert Cukuren is a UI Architect at Jotform. He is interested in scalable design and UI systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
   <title>Mert Cukuren — UI Architect</title>
   <link rel="icon" href="/favicon.ico" />
 </head>
 <style>
   * {
     box-sizing: border-box;
-    font-weight: 600;
+    font-weight: 900;
+    font-family: 'Unbounded', sans-serif;
+    margin: 0;
   }
+
   body {
-    background-color: #000;
     color: #FFF;
     font-family: monospace;
     margin: 0;
     padding: max(3vw, 2rem);
-  }
-
-  :where(:not(a)) {
-    margin: 0 0 max(1.5vw, 1rem) 0;
+    background-color: #1b2c50;
+    overscroll-behavior: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
   }
 
   h1 {
-    font-size: max(3.5vw, 2.5rem);
+    font-size: max(4vw, 2rem);
+    font-weight: 900;
   }
 
   h2 {
-    font-size: max(2vw, 1.5rem);
-  }
-
-  h3 {
-    font-size: max(1.5vw, 1rem);
+    font-size: max(2vw, 1rem);
+    margin-bottom: .5vw;
   }
 
   a {
-    color: #FF0;
+    color: #fff;
+    text-decoration: none;
   }
   
-  h3 ~ a {
+  div a {
     font-size: max(1.2vw, 0.8rem);
+    border-bottom: 1px solid #ffffff4d;
   }
 
-  h3 ~ a + a {
-    margin-left: max(0.5vw, 0.3rem);
+  div a + a {
+    margin-left: .6rem;
   }
 
   img {
     width: max(12vw, 10rem);
     height: max(12vw, 10rem);
+    mix-blend-mode: luminosity;
+    border-radius: 4px;
+  }
+
+  [data-us-project] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .mt-auto {
+    margin-top: auto;
+  }
+  span {
+    font-weight: 800;
   }
 </style>
 <body>
-  <img src="https://avatars.githubusercontent.com/u/34642289" alt="Mert Cukuren" />
-  <h1>Mert Cukuren</h1>
-  <h2>UI Architect at <a href="https://jotform.com" target="_blank">Jotform</a></h2>
-  <h3>Interested in scalable design and UI systems.</h3>
-  <a href="https://twitter.com/knyttneve" target="_blank">X</a>
-  <a href="https://linkedin.com/in/mertcukuren" target="_blank">Linkedin</a>
-  <a href="https://github.com/mertJF" target="_blank">GitHub</a>
-  <a href="https://codepen.io/knyttneve" target="_blank">CodePen</a>
+  <h1>MERT<span>CUKUREN</span></h1>
+  <h2>UI ARCHITECT — <a href="https://jotform.com" target="_blank">JOTFORM</a></h2>
+  <div class="mt-auto">
+    <a href="https://twitter.com/knyttneve" target="_blank">X</a>
+    <a href="https://linkedin.com/in/mertcukuren" target="_blank">Linkedin</a>
+    <a href="https://github.com/mertJF" target="_blank">GitHub</a>
+    <a href="https://codepen.io/knyttneve" target="_blank">CodePen</a>
+  </div>
+  <div id="unicorn" data-us-project="18s2Y8jyX3cvsgrwNASY"></div>
+  <script src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js" type="text/javascript"></script>
+  <script>UnicornStudio.init();</script>
 </body>
 </html>
